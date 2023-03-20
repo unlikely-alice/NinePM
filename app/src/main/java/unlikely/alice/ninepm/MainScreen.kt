@@ -196,11 +196,11 @@ fun Header() {
         )
         Spacer(modifier = Modifier.size(12.dp))
         Row {
-            ElevatedButton(onClick = { openWeb(context, "https://www.github.com") }) {
+            ElevatedButton(onClick = { openWeb(context, "https://mardomi.pages.dev/ninepm/ninepm-app/") }) {
                 Text("درباره")
             }
             Spacer(Modifier.size(16.dp))
-            ElevatedButton(onClick = { openWeb(context, "https://www.github.com") }) {
+            ElevatedButton(onClick = { openWeb(context, "https://mardomi.pages.dev/ninepm/ninepm-app/#%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D9%88-%D9%86%D8%B5%D8%A8") }) {
                 Text("به روز رسانی")
             }
         }
